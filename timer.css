@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+.box{
+    background-color: #020119;
+    padding: 40px;
+    border: 1px solid #ffffff;
+
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF1FC;
+    border-radius: 20px;
+}
+
+.timerbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;}
+
+.innertext{
+     margin-left: 40px;
+     margin-right: 30px;
+     color: black;
+}
+
+.timer input{
+    margin: 10px;
+    height: 90px;
+    width: 90px;
+    border-radius: 1000px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid rgba(87, 87, 87, 0.719);
+    background-color: rgba(109, 104, 104, 0.719);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hours{
+    font-size: 60px;
+    color: black;
+}
+
+.min{
+    font-size: 60px;
+    color: black;
+}
+
+.reset{
+    background-color: #EBF1FC;
+}
+
+.stop{
+    background-color: #EBF1FC;
+}
+
+.restart{
+    background-color: #EBF1FC;
+}
+
+.button button{
+    height: 50px;
+    width: 70px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.reset:active{
+     border-radius: 100px ;
+}
+
+.stop:active{
+    border-radius: 1000px;
+}
+
+.restart:active{
+    border-radius: 100px;
+}
+
+#reset{
+    width: 40px;
+}
+
+#restart{
+    width: 40px
+}
+
+#play{
+    width: 40px;
+}
+
+.reset p{
+    color:  white;
+    padding: 5px;
+}
+
+.restart p{
+    color: white;
+}
+
+.stop p{
+    color: white;
+    padding: 5px;
+}
+
